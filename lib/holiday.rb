@@ -57,7 +57,7 @@ def all_winter_holiday_supplies(holiday_hash)
       value.each {|key, value| array << value}
     end
   end
-  return array
+  return array.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
